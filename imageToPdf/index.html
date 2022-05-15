@@ -1,0 +1,24 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.debug.js"></script>
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+</head>
+
+<body>
+    <div class="container">'
+        <h1>Image to PDF converter</h1>
+        <img id="showImage" src="images/img.png">
+        <div class="button">
+            <div class="upload">
+                <input type="file" onchange="getFile(event)" accept=".png,.jpg,.jpeg">
+                Upload Image
+            </div>
+            <button onclick="convert()">Download</button>
+        </div>
+    </div>
+</body>
+</html>
