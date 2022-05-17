@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.flex-container{
+    height: 500px;
+    display: flex;
+    background-color: aquamarine;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.item{
+    width: 100px;
+    height:100px;
+    background-color: blue;
+    margin: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* .item:nth-of-type(1)
+{
+    align-self: start;
+}
+.item:nth-of-type(2)
+{
+    align-self: center;
+}
+.item:nth-of-type(3)
+{
+    align-self: end;
+} */
